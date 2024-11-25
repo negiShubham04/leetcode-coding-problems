@@ -4,7 +4,7 @@ import java.util.*;
 
 
 /**
- * <a href="https://leetcode.com/problems/merge-intervalsi">Problem link (LC-56)</a>
+ * <a href="https://leetcode.com/problems/merge-intervals">Problem link (LC-56)</a>
  */
 public class MergeIntervals {
 
