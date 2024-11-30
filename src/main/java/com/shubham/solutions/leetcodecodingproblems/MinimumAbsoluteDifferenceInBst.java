@@ -18,8 +18,8 @@ public class MinimumAbsoluteDifferenceInBst {
         int diff3 = Integer.MAX_VALUE;
         if (prev != -1) {
             diff3 = Math.abs(root.val - prev);
-            prev = root.val;
         }
+        prev = root.val;
         int diff2 = getMinimumDifference(root.right);
         return Math.min(diff1, Math.min(diff2, diff3));
     }
