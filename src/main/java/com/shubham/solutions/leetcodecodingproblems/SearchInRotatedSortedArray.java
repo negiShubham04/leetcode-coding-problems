@@ -7,7 +7,7 @@ package com.shubham.solutions.leetcodecodingproblems;
 public class SearchInRotatedSortedArray {
 
     /**
-     * TC = O(N Log N) <br>
+     * TC = O(Log N) <br>
      * SC = O(1)  <br>
      */
     public int search(int[] nums, int target) {
