@@ -1,7 +1,7 @@
 package com.shubham.solutions.leetcodecodingproblems;
 
 /**
- * <a href="https://leetcode.com/problems/construct-quad-tree">Problem link (LC-122)</a>
+ * <a href="https://leetcode.com/problems/construct-quad-tree">Problem link (LC-427)</a>
  */
 public class ConstructQuadTree {
 
