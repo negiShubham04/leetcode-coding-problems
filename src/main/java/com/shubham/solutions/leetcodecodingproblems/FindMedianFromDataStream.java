@@ -6,11 +6,11 @@ import java.util.PriorityQueue;
 /**
  * <a href="https://leetcode.com/problems/find-median-from-data-stream">Problem link (LC-295)</a>
  */
-public class MedianFinder {
+public class FindMedianFromDataStream {
     PriorityQueue<Integer> leftMaxHeap;
     PriorityQueue<Integer> rightMinHeap;
 
-    public MedianFinder() {
+    public FindMedianFromDataStream() {
         leftMaxHeap = new PriorityQueue<>(Comparator.reverseOrder());
         rightMinHeap = new PriorityQueue<>();
     }
